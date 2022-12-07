@@ -16,4 +16,5 @@ Nothing yet…
 **Education and courses:**
 
 **Language:**
+Russian - native
 English level - 
