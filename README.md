@@ -1,2 +1,2 @@
 https://earshotJk.github.io/rsschool-cv/cv <br />
-https://earshotJk.github.io/rsschool-cv/
+https://earshotjk.github.io/rsschool-cv/index.html
