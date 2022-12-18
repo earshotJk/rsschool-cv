@@ -1,12 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSSchool CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-body">
+    <header>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about-me">About me</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#strengths">Strengths</a></li>
+          <li class="nav__item"><a href="#code-example">Code</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item"><a href="#contact">Contact</a></li>
+          <li class="nav__item"><a href="#education">Education</a></li>
+          <li class="nav__item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="left-side">
+        <img src="img/av.jpg" width="380" height="382" alt="My avatar" />
+        <section class="contact" id="contact">
+          <h2 class="section-title">Contact</h2>
+          <ul class="contact__list">
+            <li class="contact__item">Discord:<a>Jk#6469</a></li>
+            <li class="contact__item">
+              Email:<a href="mailto:earshot88@mail.ru">earshot88@mail.ru</a>
+            </li>
+            <li class="contact__item">
+              Address:<br /><span>Moscow, Russia</span>
+            </li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              2022: <br /><a href="https://htmlacademy.ru/profile/id2061909"
+                >HTML Academy profile</a
+              ><br />
+              <a href="https://stepik.org/users/556821052">Stepik profile</a>
+              <br /><a href="https://rs.school/js-stage0/"
+                >JS/FE Pre-School (in process...)</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">
+              <a>Russian - native</a><br />
+              <a>English - B2</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="page-title">
+          <h1 class="main-title">Constantin <br />Gushchin</h1>
+          <p>Future Front-End developer</p>
+        </section>
+        <section class="about-me" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            Hi there! I'm 34 years old graduate in Economics. My old work drowed
+            me down. I always liked all the 'new' technical/computer things,
+            like to study and learn something new. And now i'm here. I got
+            passionate about coding and creating something. I like to work and see
+            the results of my work.
+            <br />
+            Also big music and gaming fan.
+          </p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML/CSS (Learning)</li>
+            <li>JS (Learning)</li>
+            <li>Github (Learning)</li>
+            <li>Figma (Learning)</li>
+          </ul>
+        </section>
+        <section class="key-strengths" id="strengths">
+          <h2 class="section-title">Key strengths</h2>
+          <ul class="key-strengths__list">
+            <li>Calm</li>
+            <li>Hardworking</li>
+            <li>Responsible</li>
+            <li>Quick learner</li>
+          </ul>
+        </section>
+        <section class="code-example" id="code-example">
+          <h2 class="section-title">Code example</h2>
+          <pre>
+            function multiply(a, b){
+              return a * b
+            } </pre
+          >
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="section-title">My projects</h2>
+          <ul class="projects__list">
+            <li>
+              <a href="https://earshotJk.github.io/rsschool-cv/"
+                >My first project is this CV :)</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__github" href="https://github.com/earshotJk">
+        My GitHub
+      </a>
+      <p class="footer__year">2022</p>
+      <a class="footer__rsschool" href="https://rs.school/js/">
+        <img
+          src="img/rs_school_js.svg"
+          width="86"
+          height="32"
+          alt="RS School logo"
+        />
+      </a>
+    </footer>
+  </body>
 </html>
